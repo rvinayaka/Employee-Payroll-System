@@ -1,0 +1,240 @@
+WARNING :- 2023-03-31 17:18:15,581 - app : Starting the connection to display all employees
+WARNING :- 2023-03-31 17:18:15,725 - app : Displayed all account, closing the connection
+WARNING :- 2023-03-31 17:18:15,725 - app : Displayed all account, closing the connection
+WARNING:2023-04-04 23:22:46,073:app:Starting the db connection to display members in the list
+WARNING:2023-04-04 23:23:31,738:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:23:31,738:app:Starting the db connection to update the details 
+INFO:2023-04-04 23:23:31,942:app:Member details updated: {'role': 'Senior Emp'}
+INFO:2023-04-04 23:23:31,942:app:Member details updated: {'role': 'Senior Emp'}
+INFO:2023-04-04 23:23:31,942:app:Member details updated: {'role': 'Senior Emp'}
+WARNING:2023-04-04 23:23:31,943:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:31,943:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:31,943:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:31,943:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:50,507:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:23:50,507:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:23:50,507:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:23:50,507:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:23:50,507:app:Starting the db connection to update the details 
+INFO:2023-04-04 23:23:50,790:app:Member details updated: {'role': 'Junior Emp'}
+INFO:2023-04-04 23:23:50,790:app:Member details updated: {'role': 'Junior Emp'}
+INFO:2023-04-04 23:23:50,790:app:Member details updated: {'role': 'Junior Emp'}
+INFO:2023-04-04 23:23:50,790:app:Member details updated: {'role': 'Junior Emp'}
+INFO:2023-04-04 23:23:50,790:app:Member details updated: {'role': 'Junior Emp'}
+INFO:2023-04-04 23:23:50,790:app:Member details updated: {'role': 'Junior Emp'}
+WARNING:2023-04-04 23:23:50,790:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:50,790:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:50,790:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:50,790:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:50,790:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:50,790:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:23:50,790:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:09,699:app:Starting the db connection to update the details 
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+INFO:2023-04-04 23:24:09,909:app:Member details updated: {'role': 'Marketing'}
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:09,910:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:19,948:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:20,701:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:31,271:app:Starting the db connection to update the details 
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+INFO:2023-04-04 23:24:31,469:app:Member details updated: {'role': 'Junior'}
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:31,470:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:24:54,514:app:Starting the db connection to update the details 
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+INFO:2023-04-04 23:24:54,727:app:Member details updated: {'role': 'Backend'}
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:24:54,728:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+WARNING:2023-04-04 23:25:06,368:app:Starting the db connection to update the details 
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+INFO:2023-04-04 23:25:06,598:app:Member details updated: {'role': 'Frontend'}
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:25:06,599:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:29:14,377:app:Starting the db connection to update the details 
+INFO:2023-04-04 23:29:14,750:app:Member details updated: (2, 'XYZ', 8000, Decimal('1440.0'), Decimal('4000.0'), 'Marketing')
+INFO:2023-04-04 23:29:14,750:app:Member details updated: (2, 'XYZ', 8000, Decimal('1440.0'), Decimal('4000.0'), 'Marketing')
+WARNING:2023-04-04 23:29:14,753:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:29:14,753:app:Hence member details updated, closing the connection
+WARNING:2023-04-04 23:29:14,753:app:Hence member details updated, closing the connection
