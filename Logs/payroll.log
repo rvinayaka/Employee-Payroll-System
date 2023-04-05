@@ -238,3 +238,9 @@ INFO:2023-04-04 23:29:14,750:app:Member details updated: (2, 'XYZ', 8000, Decima
 WARNING:2023-04-04 23:29:14,753:app:Hence member details updated, closing the connection
 WARNING:2023-04-04 23:29:14,753:app:Hence member details updated, closing the connection
 WARNING:2023-04-04 23:29:14,753:app:Hence member details updated, closing the connection
+WARNING:2023-04-05 12:41:13,762:app:Starting the db connection to display members in the list
+INFO:2023-04-05 12:41:14,008:app:Displayed list of all employees in the list
+INFO:2023-04-05 12:41:14,008:app:Displayed list of all employees in the list
+WARNING:2023-04-05 12:41:14,011:app:Closing the connection
+WARNING:2023-04-05 12:41:14,011:app:Closing the connection
+WARNING:2023-04-05 12:41:14,011:app:Closing the connection
