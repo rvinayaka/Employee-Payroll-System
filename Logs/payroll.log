@@ -244,3 +244,1967 @@ INFO:2023-04-05 12:41:14,008:app:Displayed list of all employees in the list
 WARNING:2023-04-05 12:41:14,011:app:Closing the connection
 WARNING:2023-04-05 12:41:14,011:app:Closing the connection
 WARNING:2023-04-05 12:41:14,011:app:Closing the connection
+WARNING:2023-04-12 17:58:27,965:app:Starting the db connection to display members in the list
+INFO:2023-04-12 17:58:28,089:app:Displayed list of all employees in the list
+INFO:2023-04-12 17:58:28,089:app:Displayed list of all employees in the list
+WARNING:2023-04-12 17:58:28,090:settings:Hence account created, closing the connection
+WARNING:2023-04-12 17:58:44,997:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 17:58:44,997:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 17:58:44,997:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 17:58:45,124:settings:Hence account created, closing the connection
+WARNING:2023-04-12 17:58:45,124:settings:Hence account created, closing the connection
+ERROR:2023-04-12 17:58:45,124:app:Exception on /benefits/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 200, in calc_benefits_amount
+    salary = get_salary[0][0]
+TypeError: 'int' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-12 17:58:45,124:app:Exception on /benefits/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 200, in calc_benefits_amount
+    salary = get_salary[0][0]
+TypeError: 'int' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-12 17:58:45,124:app:Exception on /benefits/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 200, in calc_benefits_amount
+    salary = get_salary[0][0]
+TypeError: 'int' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-12 17:59:58,029:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-12 17:59:58,215:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-12 17:59:58,215:app:Employee with id: 1 has got total benefits of 2000.0
+WARNING:2023-04-12 17:59:58,216:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:00:56,768:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:00:56,768:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:00:56,768:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-12 18:00:56,983:app:Employee with id: 2 has got total benefits of 4000.0
+INFO:2023-04-12 18:00:56,983:app:Employee with id: 2 has got total benefits of 4000.0
+INFO:2023-04-12 18:00:56,983:app:Employee with id: 2 has got total benefits of 4000.0
+INFO:2023-04-12 18:00:56,983:app:Employee with id: 2 has got total benefits of 4000.0
+WARNING:2023-04-12 18:00:56,984:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:00:56,984:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:02,299:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:02,299:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:02,299:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:02,299:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:02,299:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-12 18:01:02,584:app:Employee with id: 4 has got total benefits of 6000.0
+INFO:2023-04-12 18:01:02,584:app:Employee with id: 4 has got total benefits of 6000.0
+INFO:2023-04-12 18:01:02,584:app:Employee with id: 4 has got total benefits of 6000.0
+INFO:2023-04-12 18:01:02,584:app:Employee with id: 4 has got total benefits of 6000.0
+INFO:2023-04-12 18:01:02,584:app:Employee with id: 4 has got total benefits of 6000.0
+INFO:2023-04-12 18:01:02,584:app:Employee with id: 4 has got total benefits of 6000.0
+WARNING:2023-04-12 18:01:02,585:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:02,585:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:02,585:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:06,512:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:06,512:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:06,512:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:06,512:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:06,512:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:06,512:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:06,512:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+INFO:2023-04-12 18:01:06,721:app:Employee with id: 5 has got total benefits of 7000.0
+WARNING:2023-04-12 18:01:06,722:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:06,722:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:06,722:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:06,722:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:01:09,028:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+INFO:2023-04-12 18:01:09,503:app:Employee with id: 6 has got total benefits of 10000.0
+WARNING:2023-04-12 18:01:09,504:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:09,504:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:09,504:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:09,504:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:01:09,504:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:02:22,647:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:02:22,771:settings:Hence account created, closing the connection
+ERROR:2023-04-12 18:02:22,771:app:Exception on /benefits/3 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 200, in calc_benefits_amount
+    salary = get_salary[0]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-12 18:03:09,992:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:03:10,112:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:03:33,239:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-12 18:03:33,360:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:15:13,333:app:Starting the db connection to display members in the list
+INFO:2023-04-12 18:15:13,467:app:Displayed list of all employees in the list
+INFO:2023-04-12 18:15:13,467:app:Displayed list of all employees in the list
+WARNING:2023-04-12 18:15:13,467:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:15:37,681:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-12 18:15:37,681:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-12 18:15:37,681:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-12 18:15:37,798:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:15:37,798:settings:Hence account created, closing the connection
+ERROR:2023-04-12 18:15:37,798:app:Exception on /overtime/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 250, in enter_overtime_hours
+    get_query = "SELECT * from payroll WHERE sno =  %s"
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-12 18:15:37,798:app:Exception on /overtime/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 250, in enter_overtime_hours
+    get_query = "SELECT * from payroll WHERE sno =  %s"
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-12 18:15:37,798:app:Exception on /overtime/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 250, in enter_overtime_hours
+    get_query = "SELECT * from payroll WHERE sno =  %s"
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-12 18:16:39,131:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-12 18:16:39,248:settings:Hence account created, closing the connection
+ERROR:2023-04-12 18:16:39,248:app:Exception on /overtime/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 259, in enter_overtime_hours
+    overtime_hrs = request.json("overtime")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-12 18:17:48,191:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-12 18:17:48,191:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-12 18:17:48,319:settings:Hence account created, closing the connection
+WARNING:2023-04-12 18:17:48,319:settings:Hence account created, closing the connection
+ERROR:2023-04-12 18:17:48,320:app:Exception on /overtime/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 259, in enter_overtime_hours
+    data = request.get_json()
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-12 18:17:48,320:app:Exception on /overtime/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 259, in enter_overtime_hours
+    data = request.get_json()
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-12 18:17:54,448:app:Starting the db connection to enter overtime hours
+INFO:2023-04-12 18:17:54,656:app:Overtime of 20 added to the employee with id: 1
+INFO:2023-04-12 18:17:54,656:app:Overtime of 20 added to the employee with id: 1
+WARNING:2023-04-12 18:17:54,656:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:42:07,715:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:42:07,848:settings:Hence account created, closing the connection
+ERROR:2023-04-13 09:42:07,848:app:Exception on /benefits/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 187, in enter_benefits_list
+    benefits = request.json("benefits")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 09:42:48,766:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:42:48,766:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:42:48,894:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:42:48,894:settings:Hence account created, closing the connection
+ERROR:2023-04-13 09:42:48,895:app:Exception on /benefits/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 187, in enter_benefits_list
+    benefits = request.json("benefits")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 09:42:48,895:app:Exception on /benefits/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 187, in enter_benefits_list
+    benefits = request.json("benefits")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 09:43:47,713:app:Starting the db connection to enter benefits
+INFO:2023-04-13 09:43:47,892:app:PF, Insurance, Paid leaves added to the employee with id: 1
+INFO:2023-04-13 09:43:47,892:app:PF, Insurance, Paid leaves added to the employee with id: 1
+WARNING:2023-04-13 09:43:47,893:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:32,312:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:32,312:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:32,312:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:32,435:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:32,435:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:46,276:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:46,276:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:46,276:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:46,276:app:Starting the db connection to enter benefits
+INFO:2023-04-13 09:44:46,447:app:PF, Insurance added to the employee with id: 2
+INFO:2023-04-13 09:44:46,447:app:PF, Insurance added to the employee with id: 2
+INFO:2023-04-13 09:44:46,447:app:PF, Insurance added to the employee with id: 2
+INFO:2023-04-13 09:44:46,447:app:PF, Insurance added to the employee with id: 2
+INFO:2023-04-13 09:44:46,447:app:PF, Insurance added to the employee with id: 2
+WARNING:2023-04-13 09:44:46,448:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:46,448:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:46,448:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:59,545:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:59,545:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:59,545:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:59,545:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:59,545:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:44:59,545:app:Starting the db connection to enter benefits
+INFO:2023-04-13 09:44:59,718:app:Insurance added to the employee with id: 4
+INFO:2023-04-13 09:44:59,718:app:Insurance added to the employee with id: 4
+INFO:2023-04-13 09:44:59,718:app:Insurance added to the employee with id: 4
+INFO:2023-04-13 09:44:59,718:app:Insurance added to the employee with id: 4
+INFO:2023-04-13 09:44:59,718:app:Insurance added to the employee with id: 4
+INFO:2023-04-13 09:44:59,718:app:Insurance added to the employee with id: 4
+INFO:2023-04-13 09:44:59,718:app:Insurance added to the employee with id: 4
+WARNING:2023-04-13 09:44:59,719:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:59,719:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:59,719:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:44:59,719:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:36,536:app:Starting the db connection to enter benefits
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+INFO:2023-04-13 09:45:36,704:app:Gift cards added to the employee with id: 5
+WARNING:2023-04-13 09:45:36,704:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:36,704:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:36,704:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:36,704:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:36,704:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+WARNING:2023-04-13 09:45:55,292:app:Starting the db connection to enter benefits
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+INFO:2023-04-13 09:45:55,466:app:Coupon voucher added to the employee with id: 6
+WARNING:2023-04-13 09:45:55,467:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:55,467:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:55,467:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:55,467:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:55,467:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:45:55,467:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:47:35,011:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+INFO:2023-04-13 09:47:35,197:app:Employee with id: 1 has got total benefits of 2000.0
+WARNING:2023-04-13 09:47:35,198:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:47:35,198:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:47:35,198:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:47:35,198:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:47:35,198:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:47:35,198:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:47:35,198:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:48:20,466:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:48:20,584:settings:Hence account created, closing the connection
+ERROR:2023-04-13 09:48:20,584:app:Exception on /benefits_amt/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 221, in calc_benefits_amount
+    print(get_salary.length, get_salary)
+AttributeError: 'tuple' object has no attribute 'length'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 09:48:57,202:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:48:57,318:settings:Hence account created, closing the connection
+ERROR:2023-04-13 09:48:57,318:app:Exception on /benefits_amt/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 228, in calc_benefits_amount
+    benefits_amt = salary * 0.5
+TypeError: can't multiply sequence by non-int of type 'float'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 09:49:46,929:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:49:47,046:settings:Hence account created, closing the connection
+ERROR:2023-04-13 09:49:47,046:app:Exception on /benefits_amt/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 228, in calc_benefits_amount
+    benefits_amt = salary * 0.5
+TypeError: can't multiply sequence by non-int of type 'float'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 09:52:11,082:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 09:52:11,233:settings:Hence account created, closing the connection
+ERROR:2023-04-13 09:52:11,233:app:Exception on /benefits_amt/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 223, in calc_benefits_amount
+    salary = get_benefits_list.length
+AttributeError: 'list' object has no attribute 'length'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 09:53:16,659:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 09:53:17,207:app:Employee with id: 1 has got total benefits of 1.5
+INFO:2023-04-13 09:53:17,207:app:Employee with id: 1 has got total benefits of 1.5
+WARNING:2023-04-13 09:53:17,207:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:54:29,374:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 09:54:29,554:app:Employee with id: 1 has got total benefits of 15.0
+INFO:2023-04-13 09:54:29,554:app:Employee with id: 1 has got total benefits of 15.0
+WARNING:2023-04-13 09:54:29,555:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:55:01,273:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 09:55:02,083:app:Employee with id: 1 has got total benefits of 150.0
+INFO:2023-04-13 09:55:02,083:app:Employee with id: 1 has got total benefits of 150.0
+WARNING:2023-04-13 09:55:02,084:settings:Hence account created, closing the connection
+WARNING:2023-04-13 09:55:44,742:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 09:55:44,927:app:Employee with id: 1 has got total benefits of 150
+INFO:2023-04-13 09:55:44,927:app:Employee with id: 1 has got total benefits of 150
+WARNING:2023-04-13 09:55:44,928:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:13,395:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 10:03:13,590:app:Employee with id: 1 has got total benefits of 1500
+INFO:2023-04-13 10:03:13,590:app:Employee with id: 1 has got total benefits of 1500
+WARNING:2023-04-13 10:03:13,591:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:37,256:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:37,256:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:37,256:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 10:03:37,443:app:Employee with id: 2 has got total benefits of 1000
+INFO:2023-04-13 10:03:37,443:app:Employee with id: 2 has got total benefits of 1000
+INFO:2023-04-13 10:03:37,443:app:Employee with id: 2 has got total benefits of 1000
+INFO:2023-04-13 10:03:37,443:app:Employee with id: 2 has got total benefits of 1000
+WARNING:2023-04-13 10:03:37,444:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:37,444:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:42,215:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:42,215:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:42,215:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:42,215:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:42,215:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 10:03:42,396:app:Employee with id: 4 has got total benefits of 500
+INFO:2023-04-13 10:03:42,396:app:Employee with id: 4 has got total benefits of 500
+INFO:2023-04-13 10:03:42,396:app:Employee with id: 4 has got total benefits of 500
+INFO:2023-04-13 10:03:42,396:app:Employee with id: 4 has got total benefits of 500
+INFO:2023-04-13 10:03:42,396:app:Employee with id: 4 has got total benefits of 500
+INFO:2023-04-13 10:03:42,396:app:Employee with id: 4 has got total benefits of 500
+WARNING:2023-04-13 10:03:42,396:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:42,396:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:42,396:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:46,741:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:46,741:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:46,741:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:46,741:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:46,741:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:46,741:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:46,741:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+INFO:2023-04-13 10:03:46,912:app:Employee with id: 5 has got total benefits of 500
+WARNING:2023-04-13 10:03:46,913:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:46,913:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:46,913:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:46,913:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+WARNING:2023-04-13 10:03:49,751:app:Starting the db connection to enter benefit's amount
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+INFO:2023-04-13 10:03:49,927:app:Employee with id: 6 has got total benefits of 500
+WARNING:2023-04-13 10:03:49,928:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:49,928:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:49,928:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:49,928:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:03:49,928:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:04:58,258:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+INFO:2023-04-13 10:04:58,436:app:Overtime of 6 hours added to the employee with id: 2
+WARNING:2023-04-13 10:04:58,437:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:04:58,437:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:04:58,437:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:04:58,437:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:04:58,437:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:04:58,437:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:06,088:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+INFO:2023-04-13 10:05:06,264:app:Overtime of 10 hours added to the employee with id: 4
+WARNING:2023-04-13 10:05:06,265:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:06,265:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:06,265:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:06,265:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:06,265:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:06,265:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:06,265:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:17,207:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+INFO:2023-04-13 10:05:17,382:app:Overtime of 13 hours added to the employee with id: 5
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:17,383:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:05:24,942:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+INFO:2023-04-13 10:05:25,171:app:Overtime of 2 hours added to the employee with id: 6
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:05:25,172:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,133:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:23,256:settings:Hence account created, closing the connection
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:23,256:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,701:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:06:46,829:settings:Hence account created, closing the connection
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+ERROR:2023-04-13 10:06:46,830:app:Exception on /attendance/1 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/app.py", line 299, in enter_attendance
+    attendance = request.json("attendance")
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113451/Desktop/VS Code/Oops/.venv/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113451/Desktop/VS Code/Oops/Payroll/settings.py", line 32, in wrapper
+    except psycopg2.Error as error:
+NameError: name 'psycopg2' is not defined
+WARNING:2023-04-13 10:07:32,682:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:07:32,858:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:07:32,858:app:Employee with id: 1 has overall attendance of 80
+WARNING:2023-04-13 10:07:32,859:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:08:44,573:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:08:44,573:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:08:44,573:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:08:44,742:app:Overtime of 10 hours added to the employee with id: 1
+INFO:2023-04-13 10:08:44,742:app:Overtime of 10 hours added to the employee with id: 1
+INFO:2023-04-13 10:08:44,742:app:Overtime of 10 hours added to the employee with id: 1
+INFO:2023-04-13 10:08:44,742:app:Overtime of 10 hours added to the employee with id: 1
+WARNING:2023-04-13 10:08:44,742:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:08:44,742:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:09:29,034:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:29,034:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:29,034:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:29,034:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:29,034:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:09:29,205:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:09:29,205:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:09:29,205:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:09:29,205:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:09:29,205:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:09:29,205:app:Employee with id: 1 has overall attendance of 80
+WARNING:2023-04-13 10:09:29,206:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:09:29,206:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:09:29,206:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:09:45,266:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:45,266:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:45,266:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:45,266:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:45,266:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:45,266:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:09:45,266:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:09:45,442:app:Employee with id: 2 has overall attendance of 85
+WARNING:2023-04-13 10:09:45,442:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:09:45,442:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:09:45,442:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:09:45,442:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:05,067:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:10:05,251:app:Employee with id: 4 has overall attendance of 78
+WARNING:2023-04-13 10:10:05,252:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:05,252:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:05,252:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:05,252:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:05,252:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:19,831:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:10:20,009:app:Employee with id: 5 has overall attendance of 98
+WARNING:2023-04-13 10:10:20,010:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:20,010:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:20,010:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:20,010:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:20,010:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:20,010:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:10:28,077:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:10:28,362:app:Employee with id: 6 has overall attendance of 100
+WARNING:2023-04-13 10:10:28,363:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:28,363:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:28,363:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:28,363:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:28,363:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:28,363:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:10:28,363:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:13,795:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:13:13,984:app:Employee with id: 6 has overall attendance of 100
+INFO:2023-04-13 10:13:13,984:app:Employee with id: 6 has overall attendance of 100
+WARNING:2023-04-13 10:13:13,985:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:27,085:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:27,085:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:27,085:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:13:27,267:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:13:27,267:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:13:27,267:app:Employee with id: 5 has overall attendance of 98
+INFO:2023-04-13 10:13:27,267:app:Employee with id: 5 has overall attendance of 98
+WARNING:2023-04-13 10:13:27,268:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:27,268:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:33,405:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:33,405:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:33,405:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:33,405:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:33,405:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:13:33,582:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:13:33,582:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:13:33,582:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:13:33,582:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:13:33,582:app:Employee with id: 4 has overall attendance of 78
+INFO:2023-04-13 10:13:33,582:app:Employee with id: 4 has overall attendance of 78
+WARNING:2023-04-13 10:13:33,583:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:33,583:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:33,583:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:39,617:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:39,617:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:39,617:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:39,617:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:39,617:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:39,617:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:39,617:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+INFO:2023-04-13 10:13:39,790:app:Employee with id: 2 has overall attendance of 85
+WARNING:2023-04-13 10:13:39,791:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:39,791:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:39,791:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:39,791:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+WARNING:2023-04-13 10:13:45,011:app:Starting the db connection to enter overtime hours
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+INFO:2023-04-13 10:13:45,187:app:Employee with id: 1 has overall attendance of 80
+WARNING:2023-04-13 10:13:45,188:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:45,188:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:45,188:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:45,188:settings:Hence account created, closing the connection
+WARNING:2023-04-13 10:13:45,188:settings:Hence account created, closing the connection
